@@ -1,22 +1,112 @@
-/*.item1 { grid-area: nav; }
-.item2 { grid-area: head; }
-.item3 { grid-area: content; }
-.item4 { grid-area: footer; }
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .site-container {
-  display: grid;
-  grid-template-areas:
-    'nav'
-    'head'
-    'content'
-    'footer';
-}*/
-.site-container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
+
 .item {
     border: 2px solid red;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+.title {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+p.sol {
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.butoane {
+    display: flex;
+    gap: 2em;
+}
+
+.tel {
+    font-weight: 900;
+}
+
+.head {
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    height: 550px;
+}
+
+.cap {
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+h1 {
+    width: 500px;
+}
+
+ol.introducere {
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ol.introducere li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+/*Bifa*/
+ol.introducere li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #007BFF;
+    font-size: 1em;
+}
+.buton-servicii {
+    background-color: #007BFF;
+    border-radius: 10%;
+    width: 139px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
+
+span.servicii {
+    color: white;
+}
+
+.buton-servicii:hover {
+    background-color: white;
+    border: #007BFF solid 2px;
+    color: black;
+}
+
+.buton-servicii:hover span.servicii {
+    color: black;
+}
+
+
 
