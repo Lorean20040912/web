@@ -109,5 +109,13 @@ span.servicii {
     color: black;
 }
 
+/* info */
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 
 
