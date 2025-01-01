@@ -84,6 +84,7 @@ ol.introducere li::before {
 }
 .buton-servicii {
     background-color: #007BFF;
+    border: #007BFF 2px solid;
     border-radius: 10%;
     width: 139px;
     height: 42px;
@@ -100,7 +101,7 @@ span.servicii {
 
 .buton-servicii:hover {
     background-color: white;
-    border: #007BFF solid 2px;
+    border: 2px #007BFF solid;
     color: black;
 }
 
