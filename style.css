@@ -39,20 +39,17 @@ p.sol {
 a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .butoane {
     display: flex;
-    gap: 2em;
+    gap: 4em;
 }
 .but1:hover {
     color: #007BFF;
 }
 .but2:hover {
-    color: #007BFF;
-}
-.but3:hover {
     color: #007BFF;
 }
 .but4:hover {
@@ -214,7 +211,7 @@ ol.lista-serv li::before {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
-    height: 700px;
+    height: 500px;
 }
 .img-tel {
     width: 300px;
