@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -112,10 +113,68 @@ span.servicii {
 /* info */
 
 .info {
-    width: 100%;
-    display: flex;
+    max-width: 1140px;
+    width: 100%; 
+    display: block;
     justify-content: center;
+    margin-top: 30px !important ;
+    margin: 0 auto;
 }
-
-
-
+.img {
+    width: 100%;
+}
+.serv {
+    margin-top: 70px;
+}
+h2.serv {
+    text-align: center;
+    font-size: 200%;
+}
+.serv-info {
+    max-width: 1140px;
+    width: 100%; 
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 2em;
+}
+.itemul {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    height: 100% ;
+    border: 2px green solid;
+    box-sizing: border-box;
+}
+.titlu-serv {
+    text-align: center;
+}
+.lista {
+    margin-top: 50px;
+}
+.item4, .item5, .item6 {
+    height: 230px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.some-info {
+    text-align: start;
+}
+.lista-serv{
+    position: absolute;
+    top: 100px;
+    padding: 0;
+}
+ol.lista-serv li {
+    list-style: none;
+    position: relative; 
+    padding-left: 30px; 
+}
+ol.lista-serv li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #007BFF;
+    font-size: 1em;
+}
