@@ -19,6 +19,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 90px;
+    position: fixed;
 }
 
 .title {
@@ -41,6 +42,21 @@ a {
 .butoane {
     display: flex;
     gap: 2em;
+}
+.but1:hover {
+    color: #007BFF;
+}
+.but2:hover {
+    color: #007BFF;
+}
+.but3:hover {
+    color: #007BFF;
+}
+.but4:hover {
+    color: #007BFF;
+}
+.but5:hover {
+    color: #007BFF;
 }
 
 .tel {
@@ -157,17 +173,17 @@ h2.serv {
     padding-left: 20px;
     padding-right: 20px;
     box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),  /* Bottom shadow */
-            -4px 0 6px rgba(0, 0, 0, 0.1), /* Left shadow */
-            4px 0 6px rgba(0, 0, 0, 0.1);  /* Right shadow */;
+            0 4px 6px rgba(0, 0, 0, 0.1),  /* Bottom*/
+            -4px 0 6px rgba(0, 0, 0, 0.1), /* Left*/
+            4px 0 6px rgba(0, 0, 0, 0.1);  /* Right*/;
 }
 .item1, .item2, .item3 {
     font-size: 17px;
 
     box-shadow:
-            0 -4px 6px rgba(0, 0, 0, 0.1),  /* Bottom shadow */
-            -4px 0 6px rgba(0, 0, 0, 0.1), /* Left shadow */
-            4px 0 6px rgba(0, 0, 0, 0.1);  /* Right shadow */
+            0 -4px 6px rgba(0, 0, 0, 0.1),  /* top */
+            -4px 0 6px rgba(0, 0, 0, 0.1), /* Left*/
+            4px 0 6px rgba(0, 0, 0, 0.1);  /* Right*/
 }
 .some-info {
     text-align: start;
@@ -216,6 +232,9 @@ div.contacte {
     width: 139px;
     height: 42px;
 }
+span.contact {
+    color: white;
+}
 h3.some-text {
     font-size: 2em;
 }
@@ -253,3 +272,39 @@ h3.some-text {
 .buton-contact {
     margin-top: 40px;
 }
+.footer {
+    background-color: dimgrey;
+    height: 200px;
+}
+.adress {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.img-mici {
+    height: 30px;
+    width: 30px;
+}
+.title-copyright {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+span.servicii {
+    color: white;
+}
+
+.buton-contact:hover {
+    background-color: white;
+    border: 2px #007BFF solid;
+    color: black;
+}
+
+.buton-contact:hover span.contact {
+    color: black;
+}
+
+
+
